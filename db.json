@@ -1,0 +1,110 @@
+{
+  "product": [
+    {
+      "image": "https://www.saida-group.com/interface/catalog/images/product/20210527113107_IM__temp.jpg",
+      "name": "gaucho",
+      "prix": 300,
+      "discription": "...",
+      "id": 6
+    },
+    {
+      "image": "https://www.saida-group.com/interface/catalog/images/product/20150126115514_IM__1.jpg",
+      "name": "Maestro",
+      "prix": 7500,
+      "discription": "promo jusqu'a 31/04",
+      "id": 8
+    },
+    {
+      "image": "https://tunisie-prix.com/images/produits/1200/5449000000439.jpg",
+      "name": "cocacola",
+      "prix": 1,
+      "discription": "...",
+      "id": 9
+    },
+    {
+      "image": "https://www.saida-group.com/interface/catalog/images/product/20210527113107_IM__temp.jpg",
+      "name": "bolbol",
+      "prix": 1500,
+      "discription": "...",
+      "id": 11
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Eau_minerale_Sabrine_Tunisie.png",
+      "name": "eau sabrine",
+      "prix": 147800,
+      "discription": "...",
+      "id": 12
+    }
+  ],
+  "registre": [
+    {
+      "firstname": "bilel",
+      "lastname": "memni",
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "login": [
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 8
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 10
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 11
+    },
+    {
+      "email": "bilelbolbolmemni@gmail.com",
+      "password": "12345",
+      "id": 12
+    }
+  ]
+}

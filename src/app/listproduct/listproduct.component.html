@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-3 my-2" *ngFor="let item of list" >
+        <div class="card  p-1 " [ngClass]="{'p1':item.prix<=1000,'p2':item.prix>1000&&item.prix<2000,'p3':item.prix>2000}">
+            <img [src]="item.image" class="card-img-top" alt="..."style="width: 100%; height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Name: </strong>  {{item.name}} </h5>
+              <p class="card-text"><strong>Prix: </strong>  {{item.prix}} </p>
+              <p class="card-text"><strong>Description: </strong>  {{item.discription}} </p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-danger" (click)="delete(item.id)" type="button">Delete</button>
+                <button class="btn btn-primary" [routerLink]="['/update',item._id]" type="button">Update</button>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>

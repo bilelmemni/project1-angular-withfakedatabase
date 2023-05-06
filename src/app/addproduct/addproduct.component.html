@@ -1,0 +1,47 @@
+<div class="container-fluid mx-auto border border-dark form-control" style="width: 60%;" >
+    <h1 class="text-center">Add Product:</h1>
+    <hr>
+    <form [formGroup]="formgroup" >
+      <div class="mb-3">
+        <label for="image" class="form-label">image:</label>
+        <input type="text" class="form-control" id="image" placeholder="url image..."
+        formControlName="image"[ngClass]="{'is-valid':validation&&!formgroup.get('image')?.errors,
+      'is-invalid':validation&&formgroup.get('image')?.errors}" >
+      <div class="invalid-feedback" *ngIf="validation&&formgroup.get('image')?.hasError('required')" >
+        image is required
+        </div>
+      </div>
+    <div class="mb-3">
+        <label for="name" class="form-label">Name Product:</label>
+        <input type="text" class="form-control" id="name" placeholder="name..."
+        formControlName="name" [ngClass]="{'is-valid':validation&&!formgroup.get('name')?.errors,
+      'is-invalid':validation&&formgroup.get('name')?.errors}">
+      <div class="invalid-feedback" *ngIf="validation&&formgroup.get('name')?.hasError('required')" >
+        name is required
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="prix" class="form-label">Prix Product:</label>
+        <input type="number" class="form-control" id="prix" placeholder="prix..."
+        formControlName="prix" [ngClass]="{'is-valid':validation&&!formgroup.get('prix')?.errors,
+      'is-invalid':validation&&formgroup.get('prix')?.errors}">
+      <div class="invalid-feedback" *ngIf="validation&&formgroup.get('prix')?.hasError('required')" >
+        name is required
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="discription" class="form-label">Description:</label>
+        <textarea class="form-control" id="discription" rows="3" 
+        formControlName="discription" [ngClass]="{'is-invalid':validation&&formgroup.get('discription')?.errors,
+      'is-valid':validation&&!formgroup.get('discription')?.errors}"></textarea>
+      <div class="invalid-feedback" *ngIf="validation&&formgroup.get('discription')?.hasError('required')">
+        description required
+      </div>
+      </div>
+     
+      <div class="d-grid gap-2">
+        <button class="btn btn-danger" (click)="add()" type="button">ADD</button>
+      </div>
+    </form>
+    </div>
+    
